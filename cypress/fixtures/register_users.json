@@ -1,0 +1,38 @@
+{
+    "valid_user": {
+        "name": "Raphael",
+        "secondname": "Segundo",
+        "fGivenName": "Paterno",
+        "sGivenName": "Materno",
+        "email": "rverdeiros@hotmail.com",
+        "phone": "0123456789",
+        "rfcNumber": "ABCDE12345678",
+        "zipCode": "20000",
+        "password": "Aa@12345",
+        "passwordConfirmation": "Aa@12345"
+    },
+    "invalid_rfc": [
+        {
+            "rfcNumber": "123456789012"
+        },
+        {
+            "rfcNumber": "ABCDEFGHIJKL"
+        },
+        {
+            "rfcNumber": "            "
+        }
+    ],
+
+    "invalid_phone": [
+        {
+            "phone": "@*@*@*@*@*"
+        },
+        {
+            "phone": "ABCDEFGHIJ"
+        },
+        {
+            "phone": "          "
+        }
+
+    ]
+}

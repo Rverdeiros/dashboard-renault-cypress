@@ -1,0 +1,34 @@
+{
+    "valid_user": {
+        "email": "admin@renault.com",
+        "password": "admin",
+        "name": "Admin",
+        "lastName": "MotherName"
+    },
+    "invalid_user":{
+        "email": "invalid@teste.com",
+        "password": "teste"
+    },
+    "invalid_emails": [
+        {
+            "email": "email&teste.com"
+        },
+        {
+            "email": "email@teste."
+        },
+        {
+            "email": "www.email.com"
+        },
+        {
+            "email": "1234567890"
+        },
+        {
+            "email": "@*@*@*@*@*"
+        }
+    ],
+    "empty_user":{
+        "email": "   ",
+        "password": ""
+    }
+    
+}

@@ -1,0 +1,53 @@
+{
+    "valid_user": {
+        "name": "Raphael",
+        "email": "rverdeiros@hotmail.com",
+        "password": "Aa@12345"
+    },
+    "empty_email": {
+        "email": "",
+        "password": "Aa@12345"
+    },
+    "empty_password": {
+        "email": "rverdeiros@hotmail.com",
+        "password": ""
+    },
+    "inv_pass": {
+        "email": "rverdeiros@hotmail.com",
+        "password": "invalidPassword"
+    },
+    "inv_emails": [
+        {
+            "email": "rverdeiros&hotmail.com",
+            "password": "Aa@12345"
+        },
+        {
+            "email": "www.test.com",
+            "password": "Aa@12345"
+        },
+        {
+            "email": "1234567890",
+            "password": "Aa@12345"
+        },
+        {
+            "email": "dassadsdasa",
+            "password": "Aa@12345"
+        },
+        {
+            "email": "&*&*&*&*&*&*&*",
+            "password": "Aa@12345"
+        },
+        {
+            "email": "admin*test.com",
+            "password": "Aa@12345"
+        },
+        {
+            "email": "     @test.com",
+            "password": "xperience"
+        }
+    ],
+    "short_pass": {
+        "email": "rverdeiros@hotmail.com",
+        "password": "1234567"
+    }
+}
